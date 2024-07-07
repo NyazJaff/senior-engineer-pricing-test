@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/brett/Projects/senior-engineer-pricing-test/app/controllers/application_controller.rb": {
+      "/Users/nyazjaff/others/senior-engineer-pricing-test/app/controllers/application_controller.rb": {
         "lines": [
           null,
           null,
@@ -11,7 +11,7 @@
         "branches": {
         }
       },
-      "/Users/brett/Projects/senior-engineer-pricing-test/app/helpers/application_helper.rb": {
+      "/Users/nyazjaff/others/senior-engineer-pricing-test/app/helpers/application_helper.rb": {
         "lines": [
           null,
           null,
@@ -24,7 +24,7 @@
         "branches": {
         }
       },
-      "/Users/brett/Projects/senior-engineer-pricing-test/app/models/admin_user.rb": {
+      "/Users/nyazjaff/others/senior-engineer-pricing-test/app/models/admin_user.rb": {
         "lines": [
           null,
           null,
@@ -41,7 +41,7 @@
         "branches": {
         }
       },
-      "/Users/brett/Projects/senior-engineer-pricing-test/app/models/application_record.rb": {
+      "/Users/nyazjaff/others/senior-engineer-pricing-test/app/models/application_record.rb": {
         "lines": [
           null,
           null,
@@ -55,37 +55,7 @@
         "branches": {
         }
       },
-      "/Users/brett/Projects/senior-engineer-pricing-test/app/jobs/application_job.rb": {
-        "lines": [
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ],
-        "branches": {
-        }
-      },
-      "/Users/brett/Projects/senior-engineer-pricing-test/app/mailers/application_mailer.rb": {
-        "lines": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null
-        ],
-        "branches": {
-        }
-      },
-      "/Users/brett/Projects/senior-engineer-pricing-test/app/models/order_product.rb": {
+      "/Users/nyazjaff/others/senior-engineer-pricing-test/app/models/order_product.rb": {
         "lines": [
           null,
           null,
@@ -99,6 +69,7 @@
           1,
           null,
           null,
+          1,
           1,
           null,
           null,
@@ -123,7 +94,7 @@
         "branches": {
         }
       },
-      "/Users/brett/Projects/senior-engineer-pricing-test/app/models/order.rb": {
+      "/Users/nyazjaff/others/senior-engineer-pricing-test/app/models/order.rb": {
         "lines": [
           null,
           null,
@@ -142,23 +113,23 @@
           null,
           null,
           1,
-          1,
+          0,
           null,
           null,
           null,
           1,
-          1,
+          0,
           null,
           null,
           1,
-          1,
+          0,
           null,
           null
         ],
         "branches": {
         }
       },
-      "/Users/brett/Projects/senior-engineer-pricing-test/app/models/product.rb": {
+      "/Users/nyazjaff/others/senior-engineer-pricing-test/app/models/product.rb": {
         "lines": [
           null,
           null,
@@ -175,18 +146,18 @@
           null,
           null,
           1,
-          1,
+          0,
           null,
           null,
           1,
-          1,
+          0,
           null,
           null
         ],
         "branches": {
         }
       },
-      "/Users/brett/Projects/senior-engineer-pricing-test/app/models/sku.rb": {
+      "/Users/nyazjaff/others/senior-engineer-pricing-test/app/models/sku.rb": {
         "lines": [
           null,
           null,
@@ -202,23 +173,53 @@
           null,
           null,
           1,
-          1,
+          0,
           null,
           null,
           null,
           1,
-          1,
+          0,
           null,
           null,
           1,
-          1,
+          0,
           null,
           null
+        ],
+        "branches": {
+        }
+      },
+      "/Users/nyazjaff/others/senior-engineer-pricing-test/app/jobs/application_job.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/nyazjaff/others/senior-engineer-pricing-test/app/mailers/application_mailer.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          0,
+          0
         ],
         "branches": {
         }
       }
     },
-    "timestamp": 1717410065
+    "timestamp": 1720392356
   }
 }

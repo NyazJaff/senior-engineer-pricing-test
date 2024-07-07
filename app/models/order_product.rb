@@ -11,19 +11,25 @@ class OrderProduct < ApplicationRecord
 
   # validations
   validates :quantity, presence: true
-
+  validates :each_item_price_in_cents, presence: true
+  # attr_readonly :each_item_price_in_cents TODO to be enabled after the migration has been executed on production
   #
   # Calculates the subtotal for the given order product
   #
   # @return [Integer] the subtotal
   #
+
+  before_create do
+    self.each_item_price_in_cents = product.price_in_cents
+  end
+
   def subtotal
-    quantity * product.price_in_cents
+    quantity * each_item_price_in_cents
   end
 
   # class methods
   def self.ransackable_attributes(_auth_object = nil)
-    %w[created_at id id_value order_id product_id quantity updated_at]
+    %w[created_at id id_value order_id product_id quantity each_item_price_in_cents updated_at]
   end
 
   def self.ransackable_associations(_auth_object = nil)
