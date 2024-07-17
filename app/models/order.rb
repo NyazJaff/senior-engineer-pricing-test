@@ -6,6 +6,7 @@
 class Order < ApplicationRecord
   # has many
   has_many :order_products, dependent: :destroy
+  has_many :discounts
 
   # accepts nested attributes
   accepts_nested_attributes_for :order_products, allow_destroy: true
@@ -15,7 +16,14 @@ class Order < ApplicationRecord
 
   # methods
   def total
-    order_products.sum(&:subtotal)
+    (order_products.sum(&:subtotal) / total_discounts) * 100
+  end
+
+  def total_discounts
+    total_discount = discounts.sum(:amount)
+    return 100 if total_discount > 100
+
+    total_discount
   end
 
   # class methods
